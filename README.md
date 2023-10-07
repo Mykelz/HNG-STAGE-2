@@ -1,7 +1,7 @@
 # Hng-stage-2
 Stage two of the HNG internship program.
 
-This project is a simple RESt API that performs CRUD operation on a person resource and stores them in a Mongoose database, The API accepts a frontend and can create a person when the frontend sends a POST request
+This project is a simple REST API built with NodeJS express.That performs CRUD operation on a person resource and stores them in a Mongoose database, The API accepts a frontend and can create a person when the frontend sends a POST request
 to the url http://localhost:7070/api. The api accesses the body of the POST request, and gets the name from the request and stores it in the People's collection in the database.
 The API is also capable of fetching details of a person when the frontend sends a GET request with the id of the user we are trying to fetch as a parameter 
 e.g(http://localhost:7070/api/64ff58820265c431a1cb9bac), this request fetches and displays all the details of the person with the id specified in the parameter. This API is also capable of updatinf the details of a specific user,
